@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "boot": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "clean": "lerna clean",
+    "changed": "lerna changed",
+    "prepublish": "learn",
+    "publish": "lerna publish",
+    "create": "node scripts/cli.js"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
