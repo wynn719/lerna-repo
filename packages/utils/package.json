@@ -8,6 +8,9 @@
     "src",
     "dist/*.js"
   ],
+  "publicConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo test",
     "build": "rollup --config rollup.config.js"

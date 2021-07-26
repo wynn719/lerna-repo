@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "description": "live-components",
   "main": "index.js",
+  "publicConfig": {
+    "access": "public"
+  },
   "license": "MIT"
 }
