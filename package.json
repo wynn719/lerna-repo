@@ -10,7 +10,6 @@
     "test": "lerna run test",
     "clean": "lerna clean",
     "changed": "lerna changed",
-    "prepublish": "learn",
     "publish": "lerna publish",
     "create": "node scripts/cli.js"
   },
