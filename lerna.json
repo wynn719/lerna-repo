@@ -3,6 +3,18 @@
     "packages/*"
   ],
   "npmClient": "yarn",
+  "command": {
+    "version": {
+      "forcePublish": true
+    },
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "useWorkspaces": true,
   "version": "independent"
 }
