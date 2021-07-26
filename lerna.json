@@ -8,7 +8,13 @@
       "forcePublish": true
     },
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
+      "ignoreChanges": [
+        "**/CHANGELOG.md",
+        "**/node_modules/**",
+        "**/package.json",
+        "**/*.md",
+        "**/perf/**"
+      ],
       "message": "chore(release): publish"
     }
   },
