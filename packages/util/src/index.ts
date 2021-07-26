@@ -1,5 +1,4 @@
-import Vue from 'vue'
-// import packageJson from '../package.json';
+import packageJson from '../package.json';
 
 export const test = 'test';
 
@@ -7,9 +6,9 @@ export const testFn = () => {
   console.log('test');
 };
 
-export const testPeerModule = () => {
-  console.log(Vue);
-}
+// export const testPeerModule = () => {
+//   console.log(Vue);
+// }
 
 export const testES6 = () => {
   const obj = {
@@ -33,4 +32,4 @@ export const testTs = (options: TSOptions) => {
   console.log(options);
 }
 
-// export const version = packageJson.version;
+export const version = packageJson.version;
