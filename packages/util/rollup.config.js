@@ -1,13 +1,13 @@
-const json = require('@rollup/plugin-json');
-const { terser } = require('rollup-plugin-terser');
-const { nodeResolve } = require('@rollup/plugin-node-resolve');
-const typescript = require('rollup-plugin-typescript2');
-const { babel } = require('@rollup/plugin-babel');
-const dts = require('rollup-plugin-dts');
+import json from '@rollup/plugin-json';
+import { terser } from 'rollup-plugin-terser';
+import resolve from '@rollup/plugin-node-resolve';
+import typescript from 'rollup-plugin-typescript2';
+import { babel } from '@rollup/plugin-babel';
+import dts from 'rollup-plugin-dts';
 
 const extensions = ['.js', '.ts'];
 
-module.exports = [{
+export default [{
   input: 'src/index',
   output: [
     {
@@ -27,7 +27,7 @@ module.exports = [{
   external: ['vue'],
   plugins: [
     json(),
-    nodeResolve({
+    resolve({
       modulesOnly: true,
       extensions,
     }),
@@ -48,6 +48,6 @@ module.exports = [{
     format: 'es'
   },
   plugins: [
-    dts.default(),
+    dts(),
   ]
 }];
