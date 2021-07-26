@@ -3,6 +3,9 @@
     "packages/*"
   ],
   "npmClient": "yarn",
+  "publicConfig": {
+    "access": "public"
+  },
   "useWorkspaces": true,
   "version": "independent"
 }
