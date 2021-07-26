@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "cli",
   "main": "index.js",
-  "publicConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "license": "MIT"
