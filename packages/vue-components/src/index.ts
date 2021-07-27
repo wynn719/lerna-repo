@@ -1,10 +1,13 @@
+import { VueConstructor } from 'vue';
 import component from './component.vue';
 
-// Declare install function executed by Vue.use()
-export function install(Vue) {
-  if (install.installed) return;
+let installed = false;
 
-  install.installed = true;
+// Declare install function executed by Vue.use()
+export function install(Vue: { component: (arg0: string, arg1: VueConstructor<component>) => void; }) {
+  if (installed) return;
+
+  installed = true;
   Vue.component(component.name, component);
 }
 

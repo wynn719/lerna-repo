@@ -13,7 +13,8 @@
         "**/node_modules/**",
         "**/package.json",
         "**/*.md",
-        "**/perf/**"
+        "**/perf/**",
+        "**/dist/**"
       ],
       "message": "chore(release): publish"
     }
