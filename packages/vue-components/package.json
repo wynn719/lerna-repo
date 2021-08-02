@@ -4,9 +4,10 @@
   "description": "vue-components",
   "license": "MIT",
   "main": "dist/index.js",
-  "types": "types/index.d.ts",
+  "types": "types/index.ts",
   "files": [
     "src",
+    "types",
     "dist/*.js",
     "dist/*.ts"
   ],
