@@ -1,6 +1,6 @@
 {
   "name": "@wynn721/util",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "package1",
   "license": "MIT",
   "main": "dist/index.min.js",
@@ -32,5 +32,6 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "tslib": "^2.3.0",
     "typescript": "^4.3.5"
-  }
+  },
+  "gitHead": "53d2f3fe07ecf08aa8e7aa78042dc6a26965c76c"
 }

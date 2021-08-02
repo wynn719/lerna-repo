@@ -1,6 +1,7 @@
 {
   "name": "@wynn721/mina-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "53d2f3fe07ecf08aa8e7aa78042dc6a26965c76c"
 }

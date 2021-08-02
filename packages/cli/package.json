@@ -1,10 +1,11 @@
 {
   "name": "@wynn721/cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "cli",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "53d2f3fe07ecf08aa8e7aa78042dc6a26965c76c"
 }
