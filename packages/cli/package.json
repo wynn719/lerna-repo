@@ -1,6 +1,6 @@
 {
   "name": "@wynn721/cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "cli",
   "main": "index.js",
   "publishConfig": {

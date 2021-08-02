@@ -1,6 +1,6 @@
 {
   "name": "@wynn721/util",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "package1",
   "license": "MIT",
   "main": "dist/index.min.js",
