@@ -14,7 +14,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo test",
+    "test": "jest",
     "build": "rimraf ./dist && rollup --config rollup.config.js"
   },
   "devDependencies": {
@@ -25,6 +25,8 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@rollup/plugin-typescript": "^8.2.3",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.54.0",
     "rollup-plugin-dts": "^3.0.2",
